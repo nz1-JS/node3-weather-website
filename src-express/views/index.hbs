@@ -4,13 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="/web-server//src-express/img/weather.png">
-  <link rel="stylesheet" href="/web-server/src-express/css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
   <title>Weather</title>
 </head>
-<body>
 
+<body>
+  {{>header}}
+    
   <div class="main-content">
-    {{>header}}
+    
 
     <h2>use this site to get your weather</h2>
 
@@ -26,6 +28,6 @@
 
   {{>footer}}
 
-  <script src="/web-server/src-express/js/app.js"></script>
+  <script src="/js/app.js"></script>
 </body>
 </html>
